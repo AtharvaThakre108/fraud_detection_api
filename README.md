@@ -74,16 +74,18 @@ Average inference time is under 50ms per transaction.
 
 ## Project Structure
 
+```
 fraud-detection-api/
-├── dataset/          # Place creditcard.csv here (not tracked in git)
-├── models/           # Trained model and scaler artifacts (not tracked in git)
-├── notebooks/        # EDA, training, and benchmarking notebook
+├── dataset/            # creditcard.csv dataset is present here (not tracked in git , downloaded from Kaggle)
+├── models/             # Trained model and scaler artifacts (not tracked in git)
+├── notebooks/          # EDA, training, and benchmarking notebook
 ├── src/
-│   ├── main.py       # FastAPI application and route definitions
-│   └── predict.py    # Preprocessing and prediction logic
-├── tests/            # Unit tests
+│   ├── main.py         # FastAPI application and route definitions
+│   └── predict.py      # Preprocessing and prediction logic
+├── tests/              # Unit tests
 ├── Dockerfile
 └── requirements.txt
+```
 
 ---
 
